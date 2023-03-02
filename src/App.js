@@ -1,12 +1,16 @@
 import './App.css';
+// import Header from './components/Header/Header';
+import Title from './components/Title/Title';
+import AppNav from './components/AppNav/AppNav';
+import Main from './components/Main/Main';
 
 function App() {
   return (
     <div className='App'>
-      <header className='App-header'>
-        <p>COMING SOON</p>
-        <p>EPFL Physics Simulations</p>
-      </header>
+      {/* <Header /> */}
+      <Title />
+      <AppNav />
+      <Main />
     </div>
   );
 }
