@@ -25,7 +25,7 @@ export default function AppNav() {
         className='app-nav-link'
         activeClass='app-nav-link-active'
       >
-        Rotating Gun
+        Rotating Cannon
       </Link>
     </div>
   );

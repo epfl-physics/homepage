@@ -1,7 +1,7 @@
 import UnityApp from '../UnityApp/UnityApp';
 import './Main.css';
 import image1 from './img-load-coupled-oscillations.png';
-import image2 from './img-load-rotating-gun.png';
+import image2 from './img-load-rotating-cannon.png';
 
 const app1data = {
   index: 1,
@@ -17,12 +17,12 @@ const app1data = {
 
 const app2data = {
   index: 2,
-  name: 'Rotating Gun',
-  loaderUrl: 'RotatingGun/Build/RotatingGun.loader.js',
-  dataUrl: 'RotatingGun/Build/RotatingGun.data',
-  frameworkUrl: 'RotatingGun/Build/RotatingGun.framework.js',
-  codeUrl: 'RotatingGun/Build/RotatingGun.wasm',
-  description: '[Rotating gun description]',
+  name: 'Rotating Cannon',
+  loaderUrl: 'RotatingCannon/Build/RotatingCannon.loader.js',
+  dataUrl: 'RotatingCannon/Build/RotatingCannon.data',
+  frameworkUrl: 'RotatingCannon/Build/RotatingCannon.framework.js',
+  codeUrl: 'RotatingCannon/Build/RotatingCannon.wasm',
+  description: '[Rotating cannon description]',
   image: image2,
   github: 'https://github.com/epfl-physics/rotating-gun.git',
 };
